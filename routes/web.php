@@ -10,6 +10,37 @@ Route::get('/mi-nombre', function () {
     return 'JAIME ALEJANDRO VEGA BARBOSA';
 });
 
+Route::get('/contactanos', function () {
+    return view("form");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::get('/php-basico', function () {
 
 
