@@ -100,7 +100,7 @@
         </div>
     @endif
 
-    <form method="POST" action="">
+    <form method="GET" action="/store">
         @csrf
 
         <div class="form-group">
